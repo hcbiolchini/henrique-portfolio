@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Henrique Biolchini - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Henrique Biolchini</h2>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">Hi, I'm <span class="highlight">Henrique Biolchini</span></h1>
+                    <p class="hero-subtitle">Business Student & Aspiring Entrepreneur</p>
+                    <p class="hero-description">
+                        Passionate about business innovation, technology, and creating solutions that make a difference. 
+                        Currently pursuing my studies while exploring opportunities in entrepreneurship and business development.
+                    </p>
+                    <div class="hero-buttons">
+                        <button class="btn btn-primary" id="contactBtn">Get In Touch</button>
+                        <button class="btn btn-secondary" id="projectsBtn">View My Work</button>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="Profile-picture.png" alt="Henrique Biolchini" class="profile-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                    <div class="profile-placeholder" style="display: none;">
+                        <i class="fas fa-user"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I'm a dedicated business student with a passion for innovation and entrepreneurship. 
+                        My journey in business has been driven by a desire to understand how organizations work 
+                        and how we can improve them through technology and creative thinking.
+                    </p>
+                    <p>
+                        Currently, I'm focused on developing my skills in business strategy, data analysis, 
+                        and project management. I believe in the power of continuous learning and staying 
+                        updated with the latest trends in business and technology. In fact, my commitment 
+                        to hands-on learning led me to create this very website from scratch, challenging 
+                        myself to master modern web technologies and showcase my abilities in a practical, 
+                        real-world application.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h3>2+</h3>
+                            <p>Years of Experience</p>
+                        </div>
+                        <div class="stat">
+                            <h3>10+</h3>
+                            <p>Projects Completed</p>
+                        </div>
+                        <div class="stat">
+                            <h3>5+</h3>
+                            <p>Skills Mastered</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Expertise</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Business Skills</h3>
+                    <div class="skill-items">
+                        <span class="skill-tag">Strategic Planning</span>
+                        <span class="skill-tag">Market Analysis</span>
+                        <span class="skill-tag">Project Management</span>
+                        <span class="skill-tag">Financial Analysis</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Technical Skills</h3>
+                    <div class="skill-items">
+                        <span class="skill-tag">Data Analysis</span>
+                        <span class="skill-tag">Excel Advanced</span>
+                        <span class="skill-tag">PowerPoint</span>
+                        <span class="skill-tag">Research</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Soft Skills</h3>
+                    <div class="skill-items">
+                        <span class="skill-tag">Leadership</span>
+                        <span class="skill-tag">Communication</span>
+                        <span class="skill-tag">Problem Solving</span>
+                        <span class="skill-tag">Teamwork</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Market Analysis Dashboard</h3>
+                        <p>
+                            Developed a comprehensive market analysis tool using Excel and data visualization 
+                            techniques to help businesses understand market trends and make informed decisions.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Excel</span>
+                            <span class="tech-tag">Data Analysis</span>
+                            <span class="tech-tag">Visualization</span>
+                        </div>
+                        <div class="project-links">
+                            <button class="btn btn-outline">View Details</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-lightbulb"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Business Innovation Proposal</h3>
+                        <p>
+                            Created a detailed business proposal for a sustainable technology startup, 
+                            including market research, financial projections, and implementation strategy.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Business Strategy</span>
+                            <span class="tech-tag">Financial Modeling</span>
+                            <span class="tech-tag">Presentation</span>
+                        </div>
+                        <div class="project-links">
+                            <button class="btn btn-outline">View Details</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-users"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Team Leadership Initiative</h3>
+                        <p>
+                            Led a cross-functional team in developing and implementing a new process 
+                            improvement initiative that increased efficiency by 25% in our organization.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Leadership</span>
+                            <span class="tech-tag">Process Improvement</span>
+                            <span class="tech-tag">Team Management</span>
+                        </div>
+                        <div class="project-links">
+                            <button class="btn btn-outline">View Details</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Connect</h3>
+                    <p>
+                        I'm always interested in new opportunities and collaborations. 
+                        Whether you have a project in mind or just want to chat about business, 
+                        feel free to reach out!
+                    </p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>hcostabiolchini1@babson.edu</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-linkedin"></i>
+                            <a href="https://www.linkedin.com/in/henrique-biolchini/" target="_blank">Connect on LinkedIn</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2024 Henrique Biolchini. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/henrique-biolchini/" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="mailto:hcostabiolchini1@babson.edu">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Project Modal -->
+    <div id="projectModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="modalTitle">Project Title</h2>
+                <span class="close">&times;</span>
+            </div>
+            <div class="modal-body">
+                <div class="modal-image">
+                    <img id="modalImage" src="" alt="Project Image">
+                </div>
+                <div class="modal-details">
+                    <div class="modal-section">
+                        <h3>Project Overview</h3>
+                        <p id="modalOverview">Project description will go here.</p>
+                    </div>
+                    <div class="modal-section">
+                        <h3>Key Features</h3>
+                        <ul id="modalFeatures">
+                            <li>Feature 1</li>
+                            <li>Feature 2</li>
+                            <li>Feature 3</li>
+                        </ul>
+                    </div>
+                    <div class="modal-section">
+                        <h3>Technologies Used</h3>
+                        <div id="modalTech" class="tech-tags">
+                            <span class="tech-tag">Technology 1</span>
+                            <span class="tech-tag">Technology 2</span>
+                        </div>
+                    </div>
+                    <div class="modal-section">
+                        <h3>Challenges & Solutions</h3>
+                        <p id="modalChallenges">Challenges and solutions will be described here.</p>
+                    </div>
+                    <div class="modal-section">
+                        <h3>Results & Impact</h3>
+                        <p id="modalResults">Results and impact will be described here.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-outline" id="modalCloseBtn">Close</button>
+                <button class="btn btn-primary" id="modalLiveBtn" style="display: none;">View Live Demo</button>
+                <button class="btn btn-secondary" id="modalGithubBtn" style="display: none;">View on GitHub</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
